@@ -7,6 +7,9 @@ export default function Home() {
       <Link href="/gradient">
         <a>Gradient</a>
       </Link>
+      <Link href="/aspectratio">
+        <a>Aspect Ratio</a>
+      </Link>
     </div>
   );
 }
