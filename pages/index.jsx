@@ -6,9 +6,14 @@ export default function Home() {
       <h1>Chakra UI</h1>
       <Link href="/gradient">
         <a>Gradient</a>
-      </Link>
+      </Link>{" "}
+      <br />
       <Link href="/aspectratio">
         <a>Aspect Ratio</a>
+      </Link>{" "}
+      <br />
+      <Link href="/box">
+        <a>Box</a>
       </Link>
     </div>
   );
