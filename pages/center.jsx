@@ -1,4 +1,4 @@
-import { Center, Circle } from "@chakra-ui/react";
+import { Center, Circle, Square } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 
 export default function _Center() {
@@ -32,6 +32,31 @@ export default function _Center() {
           {bCircle >= 250 ? <p>Hello</p> : ""}
         </Circle>
       </Circle>
+
+      <Square bgColor="gray.300">
+        <Square
+          bgColor="pink.300"
+          width="200px"
+          height="200px">
+          <Center>
+            <Square
+              bgColor="pink.400"
+              width="100px"
+              height="100px"
+              marginTop="auto">
+              <Center>
+                <Circle
+                  as="button"
+                  width="50px"
+                  height="50px"
+                  bgColor="pink.200">
+                  Box
+                </Circle>
+              </Center>
+            </Square>
+          </Center>
+        </Square>
+      </Square>
     </>
   );
 }
