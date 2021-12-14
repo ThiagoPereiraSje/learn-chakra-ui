@@ -14,6 +14,10 @@ export default function Home() {
       <br />
       <Link href="/box">
         <a>Box</a>
+      </Link>{" "}
+      <br />
+      <Link href="/center">
+        <a>Center</a>
       </Link>
     </div>
   );
